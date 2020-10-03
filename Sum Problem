@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Avg_marks {
+public static void main(String args[]) {
+Scanner scan=new Scanner(System.in);
+
+int count=scan.nextInt();
+do {
+	int a=scan.nextInt();
+	int b=scan.nextInt();
+	if(count==0) {
+		int sum=a+b;
+		System.out.println(sum);
+		count--;
+		//System.out.println(count);
+	}
+	if(count==1) {
+		int sum=a+b;
+		System.out.println(sum);
+		count--;
+	}
+	
+}while(count>=0);
+}
+}
