@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Avg_marks {
+
+	public static void main(String[] args) {
+		int sum=1;
+Scanner scan=new Scanner(System.in);
+int num1=scan.nextInt();
+if(num1==0||num1==1) {
+	System.out.println("1");
+}
+else  {
+	while(num1>0) {
+		sum=sum*num1;
+		num1--;
+	}
+	System.out.println(sum);
+
+}
+}
+}
